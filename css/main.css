@@ -1,1 +1,18 @@
 /* Place CSS styles here */
+body {
+    background-color: #ffb1c6 ;
+}
+h1 {
+    font-size: 30px;
+    color: #4b0826;
+    border: 2px solid #5c092c;
+    padding: 20px;
+    width: 100%;
+}
+img {
+    border: 15px solid #9c1d56;
+    border-style: groove;
+}
+.element {
+  margin: 30px;  
+}
