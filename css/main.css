@@ -1,18 +1,57 @@
 /* Place CSS styles here */
 body {
     background-color: #ffb1c6 ;
+    text-align: center;
 }
-h1 {
+h1 { 
     font-size: 30px;
-    color: #4b0826;
+    color: #ffb1c6;
+    background-color: #4b0826;
     border: 2px solid #5c092c;
     padding: 20px;
     width: 100%;
+    box-sizing: border-box ;
+    text-align: center;
 }
-img {
+.abbygif {
     border: 15px solid #9c1d56;
     border-style: groove;
+    text-align: center;
+} 
+
+h2 {
+    font-size: 25px;
+    color: #4b0826;
+    
 }
-.element {
-  margin: 30px;  
+
+.half {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.split {
+  display: flex;
+  height: 100vh;
+}
+
+.split-right {
+  flex: 1;  
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+.split-left {
+  flex: 1;
+  background-image: url "img/contact me pic.png";
+  background-size: cover;
+  background-position: top;
 }
