@@ -15,7 +15,7 @@ h1 {
 }
 .abbygif {
     border: 15px solid #9c1d56;
-    border-style: groove;
+    border-style:double;
     text-align: center;
 } 
 
@@ -54,4 +54,22 @@ html, body {
   background-image: url "img/contact me pic.png";
   background-size: cover;
   background-position: top;
+}
+
+a:hover {
+  color: #f0f8ff;
+}
+
+a {
+  font-size: 20px;
+  color: #051b40;
+  border: 6px solid #ffffc7;
+  box-sizing: border-box;
+  padding: 2px;
+  background-color: #ffffc7;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.navigation-pane {
+  padding: 30px;
 }
